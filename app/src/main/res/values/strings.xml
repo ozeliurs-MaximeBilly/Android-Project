@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TD1</string>
+    <string name="title">SUPERCONV</string>
+    <string name="eur">EUR</string>
+    <string name="usd">USD</string>
+    <string name="value">150 $</string>
+    <string name="convert">Convert</string>
+</resources>
