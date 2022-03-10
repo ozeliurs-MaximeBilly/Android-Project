@@ -2,7 +2,8 @@
     <string name="app_name">TD1</string>
     <string name="title">SUPERCONV</string>
     <string name="eur">EUR</string>
-    <string name="usd">USD</string>
-    <string name="value">150 $</string>
+    <string name="usd">RUB</string>
+    <string name="value">0 ₽</string>
     <string name="convert">Convert</string>
+    <string name="taux_de_change">Taux de Change</string>
 </resources>

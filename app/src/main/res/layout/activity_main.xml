@@ -43,7 +43,7 @@
                 android:id="@+id/input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="phone"
+                android:inputType="numberDecimal"
                 android:layout_marginRight="10dp"
                 android:text="0"/>
 
@@ -60,7 +60,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/usd"/>
+                android:text="@string/usd" />
 
             <TextView
                 android:id="@+id/result"
@@ -69,6 +69,26 @@
                 android:layout_marginRight="10dp"
                 android:text="@string/value" />
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="@string/taux_de_change" />
+
+            <TextView
+                android:id="@+id/taux"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
         </LinearLayout>
     </LinearLayout>
 
