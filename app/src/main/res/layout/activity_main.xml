@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/title"
                 android:textAllCaps="true"
-                android:textSize="50dp"/>
+                android:textSize="50sp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -83,8 +83,8 @@
             android:id="@+id/convert_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/convert"
-            android:paddingBottom="10dp"/>
+            android:paddingBottom="10dp"
+            android:text="@string/convert" />
 
     </LinearLayout>
 </RelativeLayout>
